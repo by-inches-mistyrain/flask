@@ -17,9 +17,6 @@ def get_random_quote():
     return quote
 
 
-@app.route('/')
-def home():
-    return "Hello, World!"
 
 
 @app.route('/random_quote')
