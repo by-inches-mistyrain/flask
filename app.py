@@ -25,7 +25,7 @@ def home():
 @app.route('/random_quote')
 def random_quote():
     quote = get_random_quote()
-    return render_template('quote.html', quotes=quote)
+    return render_template('index.html', quotes=quote)
 
 
 if __name__ == "__main__":
